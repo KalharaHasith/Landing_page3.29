@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+button {
+  font-family: "Segoe UI";
+}
+
+header {
+  display: flex;
+  height: 15vh;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.logo {
+  font-weight: 400px;
+  margin: 15px 5px;
+  color: #595968;
+  font-family: "Segoe UI";
+}
+
+.logo-container {
+  /* background: lightblue; */
+  flex: 1;
+}
+
+nav {
+  /* background: rgb(6, 224, 97); */
+  flex: 2;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  color: #5f5f79;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cart {
+  /* background: rgb(238, 29, 29); */
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.cart-logo {
+  color: #5f5f79;
+}
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  /* background: lightblue; */
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  /* add gradient for text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
+}
+
+.cta {
+  padding: 50px 0 0 0;
+}
+
+.cta-select {
+  border: 2px solid #d99d99;
+  background: transparent;
+  color: #d99d99;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta-add {
+  background: #d99d99;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  margin: 30px 0 0 20px;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cover img {
+  height: 70vh;
+  /* width: 50vh; */
+  /* filter: drop-shadow(0px 5px 3px #a0bba8);  */
+  /* drop shadoow */
+}
+
+.big-circle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.small-circle {
+  position: absolute;
+  top: 35%;
+  right: 24%;
+  z-index: -2;
+  /* height: 60%; */
+  opacity: 0.4;
+}
+
+.fashion_select {
+  width: 15%;
+  height: 15px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute; /*position the svgs anywhere */
+  right: 20%;
+}

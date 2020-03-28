@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="248" height="152.595" viewBox="0 0 248 152.595">
+  <defs>
+    <filter id="Path_1" x="3.557" y="0" width="122.024" height="152.595" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_3" data-name="3" transform="translate(-676 -405.875)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="75.818" height="137.513" transform="translate(676 407.45)" fill="#b9b3b3" opacity="0.9"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="174" height="138" transform="translate(750 407)" fill="#dbdbdb"/>
+    <text id="Designer" transform="translate(780 528)" fill="#191818" font-size="31" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" opacity="0.7"><tspan x="0" y="0">Designer</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 676, 405.88)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M28.921,32.141l4.11-9.289L44.255,23.9l2.863,21.717h0l-18.135,12.5L6.344,35.977,25.772-.7,64.936,7.656,72.255,71.5l.179,1.32h0l.022-.086.015-.059s-11.934,9.27-20.48,16.2c-10.577,8.579-25.481,19.709-25.481,19.709S5,85.652-1.776,76.495" transform="translate(17.62 21.86) rotate(-8)" fill="none" stroke="#191818" stroke-linejoin="round" stroke-width="9"/>
+    </g>
+  </g>
+</svg>
